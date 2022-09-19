@@ -1,0 +1,23 @@
+.ball {
+  content: "";
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #604e9e;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.blur {
+  content: "";
+  width: 120%;
+  height: 55%;
+  backdrop-filter: blur(13px);
+  filter: drop-shadow(30px 10px 4px #4444dd);
+  z-index: 100;
+  position: absolute;
+  transform: translate(-9%, 100%);
+  border-bottom-left-radius: 517px;
+  border-bottom-right-radius: 517px;
+}
